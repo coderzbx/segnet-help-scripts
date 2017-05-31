@@ -9,7 +9,7 @@ import collections
 
 # Import arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('--dir', type=str)
+parser.add_argument('--dir', type=str, help='Path to the folder containing the images with annotations')
 args = parser.parse_args()
 
 if args.dir:
